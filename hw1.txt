@@ -1,0 +1,40 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello student World here is your mark :" );
+        System.out.print("noura  :");
+        mark (110);
+         System.out.print("sara   :");
+        mark (89.9);  System.out.print("mariam :");
+        mark (77.5);
+         System.out.print("shoug  :");
+        mark (50);
+        
+        System.out.println("      WISH YOU ALL THE BEST <3    ");
+        
+        
+       
+     }
+     
+     public static void mark (double H ){
+         if (H>=90){
+             System.out.println("A");
+         }
+         else if (H>=80){
+             System.out.println("B");
+         }
+         else if (H>=70){
+             System.out.println("c");
+         }
+         else if (H>=60){
+             System.out.println("D");
+         }
+         else if (H<60){
+            System.out.println("F"); 
+         }
+         
+         
+         
+         
+     }
+}
